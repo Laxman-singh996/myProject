@@ -1,0 +1,85 @@
+<header>
+    <nav>
+        <div class="logo">
+            <h1 class="">Demo App</h1>
+        </div>
+        <div class="menu">
+            <a href="#">HOME</a>
+            <a href="#">About US</a>
+            <a href="#">JOBS</a>
+            <a href="#">EMPLOYERS</a>
+            <a href="#">CONTACT US</a>
+        </div>
+    </nav>
+
+    <div class="sb-example-1">
+        <div class="search">
+
+            <input type="text" class="searchTerm" placeholder="What are you looking for?">
+            <button type="submit" class="searchButton"> Search </button>
+        </div>
+    </div>
+    <div class="chckbox">
+        <input type="checkbox"><br />
+        <label class="lbl1">Full time</label>
+        <input type="checkbox">
+        <label class="lbl2"> Part time/casual/freelance</label>
+        <select class="select1">
+            <option>Select Your Location</option>
+            <option>Andheri</option>
+            <option>jogeshwri</option>
+            <option>Malad</option>
+            <option>goregoan</option>
+            <option>Borivali</option>
+        </select>
+    </div>
+
+    <button class="button" type="submit" (click)="open(content)"> Register</button>
+
+    <ng-template #content let-modal>
+        <div class="modal-header">
+            <h4 class="modal-title" id="modal-basic-title">Register</h4>
+            <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+           <app-user-registration></app-user-registration>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-primary" (click)="modal.close('Save click')">Cancel</button>
+           
+        </div>
+    </div>
+    </ng-template>
+
+
+</header>
+
+
+<div class="main">
+    <section>
+        <h3>We're Leaders in</h3>
+        <h1>creative Digital Recruitment</h1>
+
+        <h4>Based in Surry Hills, the creative hub of Sydney we are Surrounded by creativity and that reflects on
+            the type
+            of jobs we recriut for.
+        </h4>
+
+        <a class="btn" href="#">Find Out More About Us</a>
+
+    </section>
+</div>
+
+<div class="two">
+    <h3>subscribe to our job seeker mailing list</h3>
+    <input type="text" class="three" placeholder="Enter your email address">
+</div>
+
+
+<div class="footer-bottom">
+    &copy; 2014 Two Byte Consulting. <span>Terms & Policies.</span>
+</div>
+<div class="footer-right">
+    <a href="#"> <i class="fa-fa-facebook"></i></a>
+</div>

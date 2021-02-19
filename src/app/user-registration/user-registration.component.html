@@ -1,0 +1,73 @@
+<div class="main">
+    <form #simpleForm="ngForm" (ngSubmit)="onSubmit(simpleForm.value)">
+        <div id="name">
+            
+            <img src="/assets/img/avatar.png" alt="Avatar" class="avatar" #fname>  
+            <input type="file" id="myFile" name="filename" class="upload">
+            <input class="firstname" type="text" name="first_name" placeholder="First Name" ngModel required>
+            <input class="lastname" type="text" name="last_name" placeholder="Last Name" ngModel>
+        </div>
+
+
+        <input class="email" type="email" placeholder="email" name="email"  ngModel>
+        <div class="slide">
+            <div class="lbl">Age</div>
+            <mat-slider [(ngModel)]="myModal" min="20" max="60" name="anything"></mat-slider>
+            <div>{{myModal}}</div>
+        </div>
+
+        <div>
+            <select class="state"  >
+                <option>state</option>
+                <option>mumbai</option>
+                <option>dehli</option>
+                <option>pune</option>
+                <option>gujrat</option>
+                <option>goa</option>
+                <option>banglore</option>
+                <option>uttrakhand</option>
+                <option>lucknow</option>
+                <option>punjab</option>
+
+            </select>
+        </div>
+
+        <div>
+            <select class="country" >
+                <option>country</option>
+                <option>India</option>
+                <option>Sri-Lanka</option>
+                <option>Pakistan</option>
+                <option>Bangladesh</option>
+                <option>England</option>
+                <option>Afganisthn</option>
+                <option>Austrelia</option>
+                <option>Newzland</option>
+                <option>Nepal</option>
+                <option>China</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="text" name="Address" class="address" placeholder="Address" name="address">
+        </div>
+
+        <div>
+            <input type="text" placeholder="tags" class="tags" name="tags">
+        </div>
+
+        <div>
+            <input type="checkbox" class="chckbox" name="chackbox"> <span> subscribe to newsletter</span>
+        </div>
+
+        <div class="btn3">
+            <button type="submit" class="btn btn-success">submit</button>
+        </div>
+       
+
+    </form>
+</div>
+
+
+
+    

@@ -1,0 +1,223 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.main
+{
+    background-color: rgba(248, 238, 238, 0.836);
+    width:auto;
+    margin-left: 0px;
+    border: 1px solid rgb(165, 161, 161);
+}
+
+.avatar {
+   
+    width: 70px;
+    height: 70px;
+    display: block;
+  }
+
+  .upload
+  {
+      margin-top: 3px;
+  }
+
+.firstname
+{
+    margin-top: 20px;
+    margin-right: 50px;
+  
+    
+    line-height: 25px;
+  
+    padding: 0 22px;
+    font-size: 20px;
+}
+
+.lastname
+{
+	margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    
+    line-height: 25px;
+  
+    padding: 0 22px;
+    font-size: 20px;
+}
+
+.email{
+	margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 20px;
+  
+    padding: 0 22px;
+    font-size: 20px;	
+}
+
+.slide
+{
+    margin-top: 10px;
+    margin-left: 80px;
+    width: 55%;
+}
+
+.lbl
+{
+    font-weight: 400;
+    font-size: 25x;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.state
+{
+    margin-top: 10px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 20px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.country
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 30px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.address
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 25px;
+    font-size: 20px;
+    height: 30px; 
+    padding: 20px;
+}
+
+.tags
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 25px;
+    font-size: 20px;
+    height: 40px; 
+    padding: 20px;
+}
+.firstname
+{
+    margin-top: 20px;
+    margin-left: 80px;
+  
+    
+    line-height: 25px;
+  
+    padding: 0 22px;
+    font-size: 20px;
+}
+
+.lastname
+{
+	margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    
+    line-height: 25px;
+  
+    padding: 0 22px;
+    font-size: 20px;
+}
+
+.email{
+	margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 20px;
+  
+    padding: 0 22px;
+    font-size: 20px;	
+}
+
+.state
+{
+    margin-top: 10px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 20px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.country
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 30px;
+    font-size: 20px;
+    height: 30px;
+}
+
+.address
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 25px;
+    font-size: 20px;
+    height: 30px; 
+    padding: 20px;
+}
+
+.tags
+{
+    margin-top: 20px;
+    margin-left: 80px;
+    left: 200px;
+    width: 58%;
+    line-height: 25px;
+    font-size: 20px;
+    height: 40px; 
+    padding: 20px;
+}
+
+.chckbox
+{
+    margin-top: 10px;
+   margin-left: 66px;
+    height: 20px; 
+    padding: 20px;  
+    zoom: 1.5;
+}
+span{
+   padding-left: 5px;
+    font-size: 15px;
+    height: 50px;
+}
+
+.btn3
+{
+    margin-bottom: 5px;
+    padding-top: 10px;
+    width: 40%;
+    margin-left: 320px;
+}
